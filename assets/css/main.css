@@ -14,25 +14,12 @@ body {
     ;
 }
 
-.navbar a {
-    cursor: pointer;
-    text-decoration: none;
-    color: #007bff;
-    -webkit-transition: all .2s ease-in-out;
-    -o-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
+.navbar .navbar-nav .navbar-item {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 20px;
 }
-
-.navbar .navbar-toggler {
-    padding: 0.25rem 0.75rem;
-    font-size: 1.25rem;
-    line-height: 1;
-    background-color: transparent;
-    border: 1px solid transparent;
-    border-radius: 0.25rem;
-}
-
-.navbar .navbar-nav .navbar-item {}
 
 .navbar .navbar-nav .navbar-item .navbar-links {
     color: green;
@@ -48,3 +35,7 @@ body {
 
 
 /* the slider section */
+
+.slider-home {
+    background-color: brown;
+}
